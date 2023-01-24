@@ -1,0 +1,29 @@
+.friendreq {
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.friendreq:hover {
+    background-color: #F50550;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.avatar {
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.friendreq h1 {
+color: rgb(0, 0, 0);
+font-size: 15px;
+font-weight: 500;
+margin-top: 5px;
+}
+.friendreq p{
+    visibility: hidden;
+    margin-top: 2%;
+}

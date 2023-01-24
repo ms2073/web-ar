@@ -1,0 +1,111 @@
+.widget {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#rectangle{
+
+    position: relative;
+    width:300px;
+    height:130px;
+    background:#0082CA42;
+    margin-left: 0%;
+    margin-top: -15px;
+    border-radius: 15px;
+    top: -30px;
+    
+  
+  
+}
+
+@media screen and (max-width: 1280px) {
+    .widget {
+      margin-left: 0;
+    }
+  }
+
+.Suggestions {
+    margin-top: 11px;
+}
+.hr {
+    margin-left: 16px;
+    margin-bottom: 10px;
+    margin-right: 16px;
+    margin-top: 8px;
+    border-bottom: 2px solid #3E4042;
+}
+
+h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #000000;
+    cursor: context-menu;
+    margin-left: 16px;
+    font-weight: bold;
+}
+
+[icon] {
+
+    margin-left: 40px;
+}
+
+.profilereq {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.name {
+
+    margin-left: 90px;
+    margin-top: -40px;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+
+.accept {
+    
+    position: relative;
+    left: 60px;
+    top:35px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    background-color: #D52672;
+    border: 2px solid black;
+    border-radius: 10px;
+  
+}
+
+.decline {
+    left: 85px;
+    position: relative;
+    
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    top: 35px;
+    
+    
+}
+.button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

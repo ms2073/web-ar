@@ -1,0 +1,268 @@
+.leftside {
+
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 40px;
+    top: 50px;
+
+}
+
+h1 {
+
+    position: absolute;
+    width: 358px;
+    height: 74px;
+    left: 960px;
+    top: 30px;
+
+   font-family: 'Sofia';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 101px;
+   display: flex;
+   align-items: center;
+
+   color: #000000;
+}
+
+h2 {
+    position: absolute;
+    width: 440px;
+    height: 60px;
+    left: 886px;
+    top: 98px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.username {
+    position: absolute;
+    width: 445px;
+    height: 59px;
+    left: 881px;
+    top: 205px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+}
+
+.passw {
+
+    position: absolute;
+    width: 445px;
+    height: 59px;
+    top:285px;
+    left: 881px;
+    
+    
+    background: #F3F3F3;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+
+}
+
+
+.forgot {
+    position: absolute;
+    width: 124px;
+    height: 19px;
+    left: 1199px;
+    top: 338px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #2D2626;
+
+}
+
+.Signin {
+    position: absolute;
+    width: 455px;
+    height: 59px;
+    left: 881px;
+    top: 385px;
+
+    background: #D52672;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+/* identical to box height */
+
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.or {
+    position: absolute;
+    width: 84px;
+    height: 15px;
+    left: 1051px;
+    top: 477px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #555252;
+}
+
+.rect1 {
+    position: absolute;
+    width: 132px;
+    height: 3px;
+    left: 912px;
+    top: 492px;
+
+    background: linear-gradient(269.97deg, #F89AEE 4.18%, rgba(196, 196, 196, 0) 77.28%);
+}
+
+.rect2 {
+    position: absolute;
+    width: 132px;
+    height: 3px;
+    left: 1140px;
+    top: 492px;
+    
+    background: linear-gradient(269.97deg, #F89AEE 4.18%, rgba(196, 196, 196, 0) 77.28%);
+    transform: rotate(-180deg);
+
+}
+
+
+
+.Signup {
+
+    position: absolute;
+    width: 448px;
+    height: 59px;
+    left: 878px;
+    top: 577px;
+
+    background: #F3F3F3;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.12);
+    border-radius: 15px;
+
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 28px;
+    
+    align-items: center;
+    text-align: center;
+
+    color: #D52672;
+}
+
+
+.get {
+    position: absolute;
+    width: 216px;
+    height: 45px;
+    left: 1000px;
+    top: 623px;
+    
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 32px;
+    
+    color: #000000;
+    
+}
+.gpay {
+    position: absolute;
+    width: 217.8px;
+    height: 59.71px;
+
+    left: 881px;
+    top: 685px;
+
+
+border-radius: 10px;
+}
+
+.appstore {
+
+    position: absolute;
+    width: 217.8px;
+    height: 59.71px;
+  
+    left: 1108.2px;
+    top: 685px;
+    
+    
+    border-radius: 10px;
+}
+
+.ep1 {
+
+    
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 1030px;
+    top: 512px;
+    
+    border-radius: 100px;
+    background: #F89AEE;
+}
+
+.ep2 {
+
+    
+
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    left: 1099px;
+    top: 512px;
+    border-radius: 100px;
+    background: #F89AEE;
+    
+}
+
+
+.goog {
+  
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1042px;
+    top: 523px;
+}
+
+.face {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1112px;
+    top: 523px;
+    
+     
+}
+
