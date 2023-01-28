@@ -9,7 +9,7 @@ import SendIcon from '@mui/icons-material/Send';
 import PersonAddIcon from '@mui/icons-material/PersonAdd';
 import { Avatar } from '@mui/material';
 import { IconButton } from "@mui/material"
-import logo from '../img/logo.png'
+import logo from './logo.png'
 
 function Header() {
   return (

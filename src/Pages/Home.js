@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../Hcomponent/Header';
-import Sidebar from '../Hcomponent/Sidebar';
-import Feed from '../Hcomponent/Feed';
-import Widget from '../Hcomponent/Widget';
-import Bottomright from '../Hcomponent/Bottomright';
+import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
+import Feed from '../components/Feed';
+import Widget from "../components/Widget"
+import Bottomright from '../components/Bottomright';
 import './Home.css';
 
 function Home() {
@@ -15,13 +15,13 @@ function Home() {
         <div className='app__posts'>
         <Feed />
         </div>
-        <Widget />
+        
        
       
         {/* sidebar*/}
-      {/* feed*/}
+      
       {/* widgets */}
-
+       <Widget />
       </div>
       <Bottomright />
       

@@ -17,11 +17,11 @@ export const useLogin = () => {
     })
     const json = await response.json()
 
-    if (!response.status === 200) {
+    if (!response.ok) {
       setIsLoading(false)
       setError(json.error)
     }
-    if (response.status === 200) {
+    if (response.ok) {
       // save the user to local storage
       localStorage.setItem('user', JSON.stringify(json))
 

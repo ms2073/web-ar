@@ -15,11 +15,21 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const {login, error, isLoading} = useLogin()
+  const [userId, setUserId] = useState("");
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault()
 
     await login(email, password)
+    
+    // setUserId(data.userId);
+      // if (response.status == 200) {
+    //   let val = { userId: data.userId, email };
+    //   navigate({
+    //     pathname: `/Verify/${data.userId}/${email}`,
+    //   });
+    // }
   }
 // function Login() {
 //   const [email, setEmail] = useState("");
@@ -61,9 +71,9 @@ const Login = () => {
       <div className="leftside">
         <img src={logo} alt="" height={600} width={600} />
       </div>
-      <h1>Welcome!</h1>
+      <h1 className="h1">Welcome!</h1>
       <form onSubmit={handleSubmit}>
-        <h2>Sign in to your account</h2>
+        <h2 className="h2">Sign in to your account</h2>
         <input
           className="username"
           type="text"
@@ -87,7 +97,7 @@ const Login = () => {
         <div className="rect2">
           <img src="./rect1" alt="" />
         </div>
-        <button disabled={isLoading} className="Signup">Sign up</button>
+        <button disabled={isLoading} onClick={() => navigate({pathname: `/signup`}) } className="Signup">Sign up</button>
         {error && <div className="error">{error}</div>}
       </form>
       <p className="get">Get the App.</p>

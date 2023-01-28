@@ -14,6 +14,9 @@ import Home from "./Pages/Home";
 
 function App() {
   const { user } = useAuthContext()
+  const [email, setEmail] = useState("");
+  const [userId, setUserId] = useState("");
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -21,6 +24,7 @@ function App() {
             <Route 
               path="/" 
               element={user ? <Home /> : <Navigate to="/login" />} 
+              
             />
             <Route 
               path="/login" 
@@ -30,9 +34,15 @@ function App() {
               path="/signup" 
               element={!user ? <Signup /> : <Navigate to="/" />} 
             />
+            <Route
+            path="/Verify/:id/:mail"
+            component={Verify}
+            element={<Verify email={email} userId={userId} />}
+          />
           </Routes>
       </div>
     </BrowserRouter>
+    
   );
 }
 
