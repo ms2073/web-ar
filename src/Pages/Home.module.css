@@ -5,8 +5,18 @@
   .app__body {
     display: flex;
   }
+  body {
+    background: #f1f2f5;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+  }
 
   .app__posts {
     display: flex;
     justify-content: center;
 }
+
+
+

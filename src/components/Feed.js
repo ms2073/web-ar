@@ -1,7 +1,7 @@
 import React from 'react'
 import MessageSender from './MessageSender';
 import Post from "./Post";
-import './Feed.css';
+import styles from './Feed.module.css';
 
 function Feed() {
   return (

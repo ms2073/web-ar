@@ -20,13 +20,13 @@ function Bottomright() {
         <div className='seticon'>
           <button>
             <SettingsIcon />
-            <h2 className='set'>Settings</h2>
+            
             </button>
         </div>
         <div className='logicon'>
           <button onClick={handleClick}>
             <LogoutIcon />
-            <h2 className='log'>Logout</h2>
+            
           </button>
         </div>
     </div>

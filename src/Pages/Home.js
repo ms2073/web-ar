@@ -4,26 +4,28 @@ import Sidebar from '../components/Sidebar';
 import Feed from '../components/Feed';
 import Widget from "../components/Widget"
 import Bottomright from '../components/Bottomright';
-import './Home.css';
+import style from './Home.module.css';
 
 function Home() {
   return (
-    <div className="App">
+    <div className={style.App}>
       <Header />
-      <div className='app__body'>
-        <Sidebar />
-        <div className='app__posts'>
+     
+      <div className={style.app__body}>
+      <Sidebar />
+      
         <Feed />
-        </div>
+        
+      
+        
+        {/* <Widget /> */}
+      
         
        
-      
-        {/* sidebar*/}
-      
-      {/* widgets */}
-       <Widget />
       </div>
-      <Bottomright />
+     
+        
+        <Bottomright />
       
     </div>
   )

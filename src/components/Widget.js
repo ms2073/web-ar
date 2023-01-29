@@ -1,5 +1,5 @@
 import React from 'react'
-import './Widget.css';
+import styles from './Widget.module.css';
 import { Avatar, Button } from '@mui/material';
 import FriendReq from './FriendReq';
 import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
@@ -9,7 +9,7 @@ function Widget() {
            
 
         
-        <div className="widget">
+        <div className={styles.widget}>
 
            <div id="rectangle">
            <Avatar className="profilereq"   /> 
@@ -21,11 +21,11 @@ function Widget() {
            
             
 
-            <div class="details">
+            <div className="details">
                 <h1>Suggestions</h1>
                 
             </div>
-            <div class="Suggestions">
+            <div className="Suggestions">
                 <FriendReq ImageURL="https://imgur.com/gallery/qOlpA" title="Akshay    " body="--- " Icon={PersonAddOutlinedIcon}/>
                 <FriendReq ImageURL="https://imgur.com/gallery/Pxiz0Yu" title="Manish   " body=" ---" Icon={PersonAddOutlinedIcon} />
                 <FriendReq ImageURL="https://imgur.com/gallery/O3EIPHp" title="Dhruv c  " body="--- " Icon={PersonAddOutlinedIcon} />

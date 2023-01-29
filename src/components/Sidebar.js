@@ -10,7 +10,7 @@ import BookmarksIcon from '@mui/icons-material/Bookmarks';
 
 function Sidebar() {
   return (
-    <div className='sidebar'>
+    <div className='sidebar style="height: 350px;"'>
         <SidebarRow className="title" Icon={GridViewRoundedIcon} title='Posts'/>
         <br></br>
         

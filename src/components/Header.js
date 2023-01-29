@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Header.css";
+import styles from "./Header.module.css";
 import SearchIcon from '@mui/icons-material/Search';
 import HomeIcon from '@mui/icons-material/Home';
 import BookmarksIcon from '@mui/icons-material/Bookmarks';
@@ -13,37 +13,40 @@ import logo from './logo.png'
 
 function Header() {
   return (
-    <div className='header'>
-        <div className='header__left'>
-        <div className='img'> <img src={logo} alt="/" />
-         <h2>MemoriesAR</h2> 
-        </div>
+    <div className={styles.header}>
+        <div className={styles.header__left}>
+        {/* <div className='img'> <img src={logo} alt="/" />
+        <h3>MemoriesAR</h3>
+        </div> */}
+
+        <div className={styles.imgTest} ><img src={logo} alt="" /></div>
             
+            <h3 className={styles.temem}>MemoriesAR</h3>
              
-            <div className='header__input'>
-                <SearchIcon className='sricon' />
+            <div className={styles.header__input}>
+                <SearchIcon className={styles.sricon} />
                 <input size={50} type="text" placeholder='Search' />
             </div>
             
         </div>
 
-        <div className='header__center'>
+        <div className={styles.header__center}>
            
             
-            <div className='header__option'>
+            <div className={styles.header__option}>
                 <HomeIcon fontSize='large' />
             </div>
-            <div className='header__option'>
+            <div className={styles.header__option}>
                 <BookmarksIcon fontSize='medium' />
             </div>
-            <div className='header__option'>
+            <div className={styles.header__option}>
                 <PeopleIcon fontSize='large' />
             </div>
             
         </div>
 
-        <div className='header__right'>
-            <div className='header__info'>
+        <div className={styles.header__right}>
+            <div className={styles.header__info}>
                 <Avatar />
                 <h4>Ms2073</h4>
             </div>

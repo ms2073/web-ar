@@ -8,7 +8,7 @@ function CreatePassword() {
         <div className='CreatePassword'>
             <h1>Create Password</h1>
             <h2>Create New Password</h2>
-            <h3>Your new password must be different from previous used passwords</h3>
+            <h3 className='p3'>Your new password must be different from previous used passwords</h3>
 
             <input className='password' type="text" placeholder=" Password" />
             <input className='confirm' type="text" placeholder=" Confirm Password" />
